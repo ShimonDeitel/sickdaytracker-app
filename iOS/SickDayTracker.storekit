@@ -1,0 +1,44 @@
+{
+  "identifier": "SUBSCRIPTIONS",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_locale": "en_US"
+  },
+  "subscriptionGroups": [
+    {
+      "id": "21000000",
+      "localizations": [],
+      "name": "Sick Day Tracker Pro",
+      "subscriptions": [
+        {
+          "adHocOfferPeriod": {
+            "paymentMode": "free",
+            "subscriptionPeriod": "P1W"
+          },
+          "displayPrice": "1.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "sub001",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Unlock: Fever-trend chart and shareable pediatrician summary",
+              "displayName": "Sick Day Tracker Pro",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "sickdaytracker_pro_monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Sick Day Tracker Pro Monthly",
+          "subscriptionGroupID": "21000000",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
